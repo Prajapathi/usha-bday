@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Happy Birthday Usha</title>
+    
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/modal.css" />
+    
+    <!-- swiper styles -->
+    <link rel="stylesheet" href="/CSS/swiper.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="icon" type="image" href="/Images/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="border">
+      <header>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_1.png" alt="bulb_1" /></div>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_2.png" alt="bulb_2" /></div>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_3.png" alt="bulb_3" /></div>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_4.png" alt="bulb_4" /></div>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_5.png" alt="bulb_5" /></div>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_6.png" alt="bulb_6" /></div>
+        <div class="bulb_div"><img src="/Images/Bulbs/bulb_7.png" alt="bulb_7" /></div>
+      </header>
+      <main>
+        <div class="banner">
+          <img src="/Images/banner-funk.png" alt="bdya banner" />
+        </div>
+        <h2 class="type">Happy Birthday Usha</h2>
+      </main>
+      <div class="content">
+        <div class="cta">
+          <div>
+            <h3>Dear Usha</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloremque, deleniti unde sint ex ab velit? Dicta impedit veritatis numquam tenetur dolor, soluta consequuntur. Error aspernatur quos rem ducimus libero?
+            Eius soluta vel nam doloribus quos in laborum praesentium saepe ipsum ratione optio perspiciatis, provident, eveniet veritatis rerum quidem laboriosam.</p>
+          </div>
+          <button id="cta-button" class="button-52" role="button">wanna get embarrassed?</button>
+        </div>
+        <div class="card">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="card-inner"></div>
+      </div>
+      </div>
+    </div>
+
+    <div class="modal">		
+      <div class="modal-wrap">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="wishes swiper-slide">
+              <h4 class="modal-text">Here is a video dedicated to you</h4>
+              <video class="video" src="/Videos/Wishes.mp4" controls></video>
+            </div>
+            <div class="full-cart swiper-slide">
+              <h4 class="modal-text">Your Cart is FULL!!!</h4>
+              <p class="modal-note">Please check out</p>
+              <video class="cart-video" src="/Videos/Cart.mp4" controls></video>
+            </div>
+            <div class="balayya swiper-slide">
+              <h4 class="modal-text">We Told Balayya It's your birthday</h4>
+              <p class="modal-note">This is what he said</p>
+              <video class="cart-video" src="/Videos/Balayya.mp4" controls></video>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <img src="/Images/Arrows/Right-Arrow.svg" class="red" alt="">
+          </div>
+          <div class="swiper-button-prev">
+            <img src="/Images/Arrows/Left-Arrow.svg" class="red" alt="">
+          </div>
+        </div>	
+       </div>	
+       
+       <div>
+        <!-- <button class="close-button">
+          <img src="/Images/Arrows/Close.svg" class="red" alt="">
+        </button> -->
+       </div>
+    </div>	
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  </body>
+</html>

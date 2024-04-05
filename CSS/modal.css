@@ -1,0 +1,91 @@
+/* .modal-text{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #1f2029;
+}
+
+
+.modal-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.modal-wrap p {
+  padding: 20px 30px 0 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .modal-wrap {
+    width: calc(100% - 40px);
+		padding-bottom: 15px;
+	}
+	.modal-wrap p {
+    padding: 15px 20px 0 20px;
+	}
+} */
+
+.modal{
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  z-index: 100;
+  background-color: rgba(16, 16, 16, 0.76);
+  backdrop-filter: blur(20px);
+}
+
+.modal-wrap {
+  width: 80%;
+  /* height: 70vh; */
+  display: flex;
+  overflow: hidden;
+}
+
+.modal-text{
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Honk", system-ui; ;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modal-note{
+  color: white;
+  font-family: 'Pacifico';
+  text-transform: italic;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.wishes, .full-cart, .balayya{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.video{
+  width: 100%;
+}
+
+.cart-video{
+  height: 60vh;
+  margin: 30px auto;
+}
+
+.close-button{
+  z-index: 10000;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
